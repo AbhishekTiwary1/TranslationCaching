@@ -1,8 +1,8 @@
-  ## Introduction and Goal :goal_net:
+  ## Introduction and Goal 
 
 A web server with a RESTful API that exposes an API that translate a text from one language to another.
 
-## Tasks Performed:performing_arts:
+## Tasks Performed
  * Created a web server with a **RESTful API using NodeJS** to translate a text from one language to another using [google-traslate-api](https://www.npmjs.com/package/@vitalets/google-translate-api)
  * Target Language is **defined by user** and can be requested by API
  * **Caching** of data is done to avoid repeated hits to the translation API using [redis](https://redis.io/)
@@ -11,7 +11,7 @@ A web server with a RESTful API that exposes an API that translate a text from o
  * **Linting** of code is done using [ESLint](https://eslint.org/docs/user-guide/getting-started)
 
 
- ## Motivation behind using `redis` for caching:dart:
+ ## Motivation behind using `redis` for caching
 
 
  | Redis    | RDBMS           | 
@@ -19,7 +19,7 @@ A web server with a RESTful API that exposes an API that translate a text from o
 | Redis stores everything in primary memory.   | RDBMS stores everything in secondary memory.          |
 | In Redis, Read and Write operations are extremely fast because of storing data in primary memory.     | In RDBMS, Read and Write operations are slow because of storing data in secondary memory.   |
 
->  ## Tech Stacks Used:fireworks:
+>  ## Tech Stacks Used
 - `NodeJS` and `ExpressJS`(NodeJS based application framework)
 - `Google Translate` npm package as an external service for actual translation
 - `redis` used as database cache.
@@ -42,7 +42,7 @@ git clone https://github.com/AbhishekTiwary1/TranslationCaching.git
 ```
 npm install
 ```
-This will download all the node modules to your local computer.:clock1::relieved::sun_with_face:
+This will download all the node modules to your local computer.
 
 5. Next thing to write on terminal is
 ```
